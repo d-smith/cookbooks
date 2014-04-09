@@ -1,7 +1,11 @@
 #githun java cookbook
 # From https://github.com/cookbooks/java
 cookbooks/java/*
-
+cookbooks/java
+cookbooks/tomcat/*
+cookbooks/tomcat
+cookbooks/users/*
+cookbooks/users
 # Chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret
