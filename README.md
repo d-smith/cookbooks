@@ -29,3 +29,9 @@ Roles provide logical grouping of cookbooks and other roles. A sample role can b
 Getting Started
 -------------------------
 Now that you have the chef-repo ready to go, check out [Learn Chef](https://learnchef.opscode.com/quickstart/workstation-setup/) to proceed with your workstation setup. If you have any questions about Enterprise Chef you can always ask [our support team](https://www.opscode.com/support/tickets/new) for a helping hand.
+
+Additional Notes
+------------------------
+For excrypted data bags, you need to transfer the key file to the target machine's /etc/chef directory (and presumably chmod it to 0600) before running
+chef-client.
+
