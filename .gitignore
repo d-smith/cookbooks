@@ -6,6 +6,9 @@ cookbooks/tomcat/*
 cookbooks/tomcat
 cookbooks/users/*
 cookbooks/users
+cookbooks/openssl/*
+cookbooks/openssl
+
 # Chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret

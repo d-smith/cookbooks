@@ -1,0 +1,24 @@
+{
+  "name":"elcaro-java-tomcat",
+  "default_attributes" : {
+	"java": {
+		"oracle": {
+			"accept_oracle_download_terms": "true"
+		}
+	}
+  },
+  "run_list": [
+    "recipe[java::oracle]",
+    "recipe[tomcat]"
+  ],
+  "override_attributes": {
+	"java": {
+		"jdk_version":"7",
+		"install_flavor":"oracle"
+	},
+	"tomcat": {
+		"base_version":"7",
+		"port":"9000"
+	}
+  }
+}
