@@ -18,7 +18,8 @@
 	},
 	"tomcat": {
 		"base_version":"7",
-		"port":"9000"
+		"port":"9000",
+		"java_options":"-Xms512m -Xmx1024m -XX:MaxPermSize=256m -Djava.awt.headless=true"
 	}
   }
 }
